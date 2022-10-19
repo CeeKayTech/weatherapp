@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    max-width: 230px;
+    min-height: 500px;
+    border: 5px solid #fff;
+    background-blend-mode: darken;
+    background: url(/images/rain.gif)no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 1.4rem;
+    color: #fff;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.header img{
+    width: 25px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search:hover input{
+    width: 100px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.4em;
+}
+.search input{
+    width: 0;
+    background: transparent;
+    outline: none;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+}
+.search input textarea{
+    padding: 0 0.5em;
+}
+.search img{
+    width: 22px;
+}
+.search button{
+    border: 0;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.curentLocation{
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.current{
+    padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sun {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+.sun h3{
+    font-size: 13px;
+}
+.sun img{
+    width:22px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgcon{
+    font-size: 80px;
+}
+.temp{
+    font-size: 35px;
+}
+.tempmessage{
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+.temp-range{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.props{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.temp-facts{
+    display: flex;
+    width: 200px;
+    padding: 0 0.7rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 7px;
+    font-size: 10px;
+    background-color: rgb(7, 27, 61);
+}
+.temp-facts2{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.temp-facts2 img{
+    width: 25px;
+}
